@@ -31,6 +31,7 @@ public class HttpJobHandler extends IJobHandler {
             URL realUrl = new URL(param);
             connection = (HttpURLConnection) realUrl.openConnection();
 
+
             // connection setting
             connection.setRequestMethod("GET");
             connection.setDoOutput(true);
