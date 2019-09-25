@@ -9,7 +9,6 @@
     </parent>
     <artifactId>xxl-job-executor-samples</artifactId>
     <packaging>pom</packaging>
-
     <modules>
         <module>xxl-job-executor-sample-spring</module>
         <module>xxl-job-executor-sample-springboot</module>
@@ -19,5 +18,4 @@
 		<module>xxl-job-executor-sample-jboot</module>
         <module>xxl-job-executor-sample-springboottest</module>
     </modules>
-
 </project>
